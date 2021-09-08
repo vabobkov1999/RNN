@@ -126,3 +126,8 @@ for word, i in tqdm(tokenizer.word_index.items()):
 <p align="center">
   <img src="https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/loss-accuracy-rnn__epochs___10__.png" />
 </p>
+
+Дополнительный материал
+-----------------------
+
+Так же напоминаю для тех кому интересно выполнить задание самому или протестировать данную программу, то прошу перейти [сюда](https://drive.google.com/drive/folders/1b_molbj8z6JhHV6r178AeI1XpQezehsm?usp=sharing "Практикум по машинному обучению")
