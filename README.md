@@ -96,7 +96,9 @@ for word, i in tqdm(tokenizer.word_index.items()):
 
 # Результат выполнения программы
 
-
+<p align="center">
+  <img src="https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/Evaluations.png" />
+</p>
 ![Gitlab logo](https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/Evaluations.png)
 
 ![Gitlab logo](https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/Evaluations.png)
