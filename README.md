@@ -99,15 +99,16 @@ for word, i in tqdm(tokenizer.word_index.items()):
 <p align="center">
   <img src="https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/Evaluations.png" />
 </p>
-![Gitlab logo](https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/Evaluations.png)
 
-![Gitlab logo](https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/Evaluations.png)
 
 
  Визуализация с помощью TSNE модели
  -----------------------------------
 
-![Gitlab logo](https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/TSNE_LR7.png)
+ <p align="center">
+   <img src="https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/TSNE_LR7.png" />
+ </p>
+
 
 
  График потерь и точности для каждой модели
@@ -115,9 +116,13 @@ for word, i in tqdm(tokenizer.word_index.items()):
 
 Для 4-х эпох
 
-![Gitlab logo](https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/loss-accuracy-rnn.png)
+<p align="center">
+  <img src="https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/loss-accuracy-rnn.png" />
+</p>
+
 
 Для эпох 10 (при 4-х потери увеличиваются)
 
-
-![Gitlab logo](https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/loss-accuracy-rnn__epochs___10__.png)
+<p align="center">
+  <img src="https://bmstu.codes/MorozoFF/lr-7-opc/-/raw/master/loss-accuracy-rnn__epochs___10__.png" />
+</p>
