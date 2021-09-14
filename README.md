@@ -54,8 +54,16 @@
   <img src="https://hsto.org/webt/2u/l3/lw/2ul3lwsbyobovjnol2g_cbvrghi.gif" />
 </p>
 
-Помимо рекуррентного слоя ещё используется embedding слой, который приводит вектора разных значений к вектору одного размера, то есть приводит к одной форме входных данных.
+Помимо рекуррентного слоя ещё используется embedding слой, который приводит вектора разных значений к вектору одного размера, то есть приводит к одной форме входных данных. Фрагмент кода с созданием структуры:
 
+```python
+model = Sequential()
+model.add(Embedding(vocab_size, glove_vectors.vector_size, weights=[embedding_matrix], input_length=X.shape[1]))
+model.add(LSTM(25, dropout=0.2, recurrent_dropout=0.2))
+model.add(Dense(1, activation='relu'))
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.summary()
+```
 
 Рассмотрим основные шаги реализации программы:
 
