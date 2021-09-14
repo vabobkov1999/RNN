@@ -3,7 +3,7 @@
 Анализ тональности текстов (RNN)
 ----------------------------------------------------------------
 
-
+Using python3.8, develop a neural network based on a recurrent layer to determine the sentiment of sentences of text based on a dataset with an already existing sentiment.
 
 | 🔢  | Ход работы   | ℹ️ |
 | ------------- | ------------- |------------- |
